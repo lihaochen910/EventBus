@@ -7,11 +7,12 @@
     "example": "example"
   },
   "scripts": {
-    "build": "uglifyjs ./src/EventBus.js -o ./lib/eventbus.min.js"
+    "build": "uglifyjs ./src/EventBus.js -o ./lib/eventbus.min.js",
+    "test": "node example/node/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/krasimir/EventBus.git"
+    "url": "https://github.com/lihaochen910/EventBus.git"
   },
   "keywords": [
     "event",
@@ -19,13 +20,13 @@
     "dispatch",
     "listen"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "Kanbaru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krasimir/EventBus/issues"
+    "url": "https://github.com/lihaochen910/EventBus/issues"
   },
-  "homepage": "https://github.com/krasimir/EventBus",
+  "homepage": "https://github.com/lihaochen910/EventBus",
   "devDependencies": {
-    "uglify-js": "2.6.2"
+    "uglify-js": "3.7.7"
   }
 }
